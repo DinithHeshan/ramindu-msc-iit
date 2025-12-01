@@ -37,9 +37,6 @@ fi
 echo "Installing Maven..."
 brew install maven
 
-# Reload shell environment
-source "$ZSHRC"
-
 # Verify installations
 echo "Java installed successfully:"
 java -version
